@@ -1,0 +1,112 @@
+/*!**********************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/frontend.css ***!
+  \**********************************************************************************************************************************************************************/
+.firstAns{
+    background-color: blue;
+    cursor: pointer;
+    font-size: 50px;
+    padding: 150px;
+}
+.secondAns{
+    background-color: red;
+    cursor: pointer;
+    font-size: 50px;
+    padding: 150px;
+}
+.wyr-frontend{
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+.no-click{
+    pointer-events: none;
+}
+
+@media screen and (max-width: 549px){
+    .firstAns{
+        font-size: 20px;
+        padding: 20px;
+    }
+    .secondAns{
+        font-size: 20px;
+        padding: 20px;;
+    }
+    .wyr-frontend h3{
+        font-size: 24px;
+    }
+    .no-click{
+        height: 120px;
+    }
+}
+@media screen and (min-width: 550px) and (max-width: 768px){
+    .firstAns{
+        font-size: 24px;
+        padding: 40px;
+        
+    }
+    .secondAns{
+        font-size: 24px;
+        padding: 40px;
+        
+    }
+    .wyr-frontend h3{
+        font-size: 30px;
+    }
+    .no-click{
+        height: 140px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 992px){
+    .firstAns{
+        font-size: 32px;
+        padding: 55px;
+        padding-top: 65px;
+    }
+    .secondAns{
+        font-size: 32px;
+        padding: 55px;
+        padding-top: 65px;
+    }
+    .wyr-frontend h3{
+        font-size: 34px;
+    }
+    .no-click{
+        height: 225px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1400px){
+    .firstAns{
+        font-size: 38px;
+        padding: 55px;
+        padding-top: 65px;
+    }
+    .secondAns{
+        font-size: 38px;
+        padding: 55px;
+        padding-top: 65px;
+    }
+    .wyr-frontend h3{
+        font-size: 36px;
+    }
+    .no-click{
+        height: 250px;
+    }
+}
+@media screen and (min-width: 1401px){
+    .firstAns{
+        font-size: 40px;
+        padding: 55px;
+        padding-top: 65px;
+    }
+    .secondAns{
+        font-size: 38px;
+        padding: 55px;
+        padding-top: 65px;
+    }
+    .wyr-frontend h3{
+        font-size: 42px;
+    }
+    .no-click{
+        height: 250px;
+    }
+}
+
+/*# sourceMappingURL=frontend.css.map*/
