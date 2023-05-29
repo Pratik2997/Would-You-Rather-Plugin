@@ -2,13 +2,15 @@
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/frontend.css ***!
   \**********************************************************************************************************************************************************************/
 .firstAns{
-    background-color: blue;
+    background-color: #679eea;
+    color: #fff;
     cursor: pointer;
     font-size: 50px;
     padding: 150px;
 }
 .secondAns{
-    background-color: red;
+    background-color: #E3242B;
+    color: #fff;
     cursor: pointer;
     font-size: 50px;
     padding: 150px;

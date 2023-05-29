@@ -2,26 +2,25 @@
     padding: 20px;
 }
 .wyr-question{
-    font-size: 30px !important;
+    font-size: 30px;
 }
 .wyr-question input{   
-    border-radius: 50px !important;
-    font-size: 22px !important;
+    border-radius: 50px;
+    font-size: 22px;
 }
 .wyr-answer-1 input{
-    background-color: blue !important;
+    text-align: center;
+    background-color: #679eea;
     padding: 20px !important;
     font-size: 24px !important;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
-    text-align: center !important;
-    border-radius: 20px !important
+    border-radius: 20px !important;
+    color: #fff;
 }
 .wyr-answer-2 input{
-    background-color: red !important;
+    text-align: center;
+    background-color: #E3242B;
     padding: 20px !important;
     font-size: 24px !important;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
-    text-align: center !important;
-    border-radius: 20px !important
-    
+    border-radius: 20px !important;
+    color: #fff;  
 }

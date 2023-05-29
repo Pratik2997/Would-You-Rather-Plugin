@@ -21,3 +21,4 @@ class WouldYouRatherTable{
 
 }
 $wouldYouRatherDataTable = new WouldYouRatherTable();
+

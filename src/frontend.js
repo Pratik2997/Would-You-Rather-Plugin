@@ -27,8 +27,7 @@ function Quiz(props) {
             <h3>{props.question}</h3>
             <div className="d-flex align-items-center">
                     <div className={("flex-fill text-center align-middle firstAns") + (resultsScreen === true ? " no-click" : "")} onClick={() => { setIsClicked(true) }}>{(resultsScreen === true) ? "" : (props.answer1)}</div>
-                    <div className={("flex-fill text-center align-middle secondAns") + (resultsScreen === true ? " no-click" : "")} onClick={() => { setIsClicked(true) }}>{(resultsScreen === true) ? "" : (props.answer2)}</div>
-                
+                    <div className={("flex-fill text-center align-middle secondAns") + (resultsScreen === true ? " no-click" : "")} onClick={() => { setIsClicked(true) }}>{(resultsScreen === true) ? "" : (props.answer2)}</div>               
             </div>
         </div>
     )

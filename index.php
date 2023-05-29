@@ -7,9 +7,11 @@
   Author: Pratik
   Author URI: pratikpaudel458.com.np
 */
+
+require("inc/wyr-route.php");
 require("inc/giver.php");
 require("inc/receiver.php");
-require("inc/wyr-route.php");
+
 
 if (!defined('ABSPATH')) exit; // Exit if accessed directly
 
@@ -28,13 +30,6 @@ class WouldYouRather
     {
         wp_register_style('wyrcss', plugin_dir_url(__FILE__) . 'build/index.css');
         wp_register_script('wyrjs', plugin_dir_url(__FILE__) . 'build/index.js');
-
-        wp_register_style('bootstrapcss', 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css');
-        wp_register_script('bootstrapjs', 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js');
-        wp_register_script('pluginfont', 'https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
-        wp_enqueue_style('bootstrapcss');
-        wp_enqueue_script('bootstrapjs');
-        wp_enqueue_style('pluginfont');
 
         register_block_type('wyr/would-you-rather', array(
             'editor_script' => 'wyrjs',
